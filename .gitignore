@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# OMC tooling state (not part of the project)
+.omc/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

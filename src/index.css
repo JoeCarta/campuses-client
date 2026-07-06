@@ -3,7 +3,15 @@
 /* Enable class-based dark mode: styles apply when <html> has the `dark` class */
 @custom-variant dark (&:where(.dark, .dark *));
 
-/* Make Satoshi the default font everywhere */
 @theme {
-  --font-sans: "Satoshi", ui-sans-serif, system-ui, sans-serif;
+  /* Inter — clean UI grotesque, matches the reference dashboard aesthetic */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+
+  /* Monochrome accent: remap the violet scale the app already uses to neutral
+     tones so everything reads black-on-white. One place, changes every
+     violet-* utility at once (500/600 = dark fills & light-mode text,
+     400 = accents on dark backgrounds). */
+  --color-violet-400: #d4d4d4;
+  --color-violet-500: #171717;
+  --color-violet-600: #000000;
 }

@@ -12,8 +12,8 @@ dist
 dist-ssr
 *.local
 
-# OMC tooling state (not part of the project)
-.omc/
+# local env — never commit real secrets
+.env
 
 # Editor directories and files
 .vscode/*

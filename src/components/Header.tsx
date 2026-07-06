@@ -30,7 +30,7 @@ function Header() {
       </button>
 
       <h1 className="text-base font-semibold text-neutral-900 sm:text-lg dark:text-violet-400">
-        Untitled Student Manager
+        NYC Student Manager
       </h1>
 
       {/* Dark-mode slider */}

@@ -27,4 +27,5 @@ http://localhost:3000, set VITE_API_URL in a .env file.
 
 ## deployed
 
-frontend link goes here once it's on vercel.
+- frontend: https://campuses-client-nu.vercel.app
+- backend api: https://campuses-server-10a1.onrender.com
